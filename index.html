@@ -1,20 +1,281 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Meu Bairro</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-  </head>
-  <body>
-    <h1>Olá, mundo!</h1>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Meu Bairro</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+    <body data-spy="scroll" data-target="#menu-meubairro">
+        <div id="menu">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-meubairro">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="imagens/logo-menu.png" alt="Logo no menu Meu Bairro" class="img-responsive"/></a>
+                    </div>
 
-    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/meu_bairro.js"></script>
-  </body>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="menu-meubairro">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#inicio" class="scroll">Inicial</a></li>
+                            <li><a href="#mapa_section" class="scroll">Mapa</a></li>
+                            <li><a href="#destaque_section" class="scroll">Destaque</a></li>
+                            <li><a href="#contato_section" class="scroll">Contato</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div id="inicio">
+            <div id="inicio-banner" class="bgParallax" data-speed="15">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="imagens/logo-banner-inicial.png" alt="Logotipo do IF" title="Logotipo do IF" class="img-center img-responsive"/>
+                            <h1 class="text-center color-laranja font-bold">Maria Madalena</h1>
+                            <h4 class="text-center texto-descricao-bairro">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mapa_section" class="bg-branco">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 page-title">
+                        <h1 class="title font-bold" >Localização</h1>
+                        <hr>
+                        <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                    </div>
+
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                        <div id="mapaview"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="destaque_section" class="bg-verde">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 page-title">
+                        <h1 class="title font-bold" >Pontos em destaque</h1>
+                        <hr>
+                        <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <article class="thumbnail">
+                            <header class="dest-img bg-amarelo">
+                                <a href="detalhe.html">
+                                    <img src="imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg" alt="Unidade de Saúde Básica Maria Madalena" class="img-responsive"/>
+                                    <p class="text-center title-nome">POSTO DE SAÚDE<br>
+                                        <span class="title-endereco"> Unidade Básica de Saúde Maria Madalena</span>
+                                    </p>
+                                </a>
+                            </header>
+                            <footer class="caption">
+                                <ul class="list-unstyled">
+                                    <li><span class="glyphicon glyphicon-time"></span> Atendimento: 8:00h às 19:00h</li>
+                                    <li><span class="glyphicon glyphicon-earphone"></span> Tel. / Cel. : 093 3518-0001</li>
+                                    <li>
+                                        <hr>
+                                    </li>
+                                    <li><a href="detalhe.html">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div> <!--<div class="col-md-4 col-sm-12">-->
+                    <div class="col-md-4 col-sm-12">
+                        <article class="thumbnail">
+                            <header class="dest-img bg-laranja">
+                                <a href="detalhe.html">
+                                    <img src="imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg" alt="Unidade de Saúde Básica Maria Madalena" class="img-responsive"/>
+                                    <p class="text-center title-nome">POSTO DE SAÚDE<br>
+                                        <span class="title-endereco"> Unidade Básica de Saúde Maria Madalena</span>
+                                    </p>
+                                </a>
+                            </header>
+                            <footer class="caption">
+                                <ul class="list-unstyled">
+                                    <li><span class="glyphicon glyphicon-time"></span> Atendimento: 8:00h às 19:00h</li>
+                                    <li><span class="glyphicon glyphicon-earphone"></span> Tel. / Cel. : 093 3518-0001</li>
+                                    <li>
+                                        <hr>
+                                    </li>
+                                    <li><a href="detalhe.html">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div> <!--<div class="col-md-4 col-sm-12">-->
+                    <div class="col-md-4 col-sm-12">
+                        <article class="thumbnail">
+                            <header class="dest-img bg-vermelho">
+                                <a href="detalhe.html">
+                                    <img src="imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg" alt="Unidade de Saúde Básica Maria Madalena" class="img-responsive"/>
+                                    <p class="text-center title-nome">POSTO DE SAÚDE<br>
+                                        <span class="title-endereco"> Unidade Básica de Saúde Maria Madalena</span>
+                                    </p>
+                                </a>
+                            </header>
+                            <footer class="caption">
+                                <ul class="list-unstyled">
+                                    <li><span class="glyphicon glyphicon-time"></span> Atendimento: 8:00h às 19:00h</li>
+                                    <li><span class="glyphicon glyphicon-earphone"></span> Tel. / Cel. : 093 3518-0001</li>
+                                    <li>
+                                        <hr>
+                                    </li>
+                                    <li><a href="detalhe.html">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div> <!--<div class="col-md-4 col-sm-12">-->
+                    <div class="col-md-4 col-sm-12">
+                        <article class="thumbnail">
+                            <header class="dest-img bg-lilas">
+                                <a href="detalhe.html">
+                                    <img src="imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg" alt="Unidade de Saúde Básica Maria Madalena" class="img-responsive"/>
+                                    <p class="text-center title-nome">POSTO DE SAÚDE<br>
+                                        <span class="title-endereco"> Unidade Básica de Saúde Maria Madalena</span>
+                                    </p>
+                                </a>
+                            </header>
+                            <footer class="caption">
+                                <ul class="list-unstyled">
+                                    <li><span class="glyphicon glyphicon-time"></span> Atendimento: 8:00h às 19:00h</li>
+                                    <li><span class="glyphicon glyphicon-earphone"></span> Tel. / Cel. : 093 3518-0001</li>
+                                    <li>
+                                        <hr>
+                                    </li>
+                                    <li><a href="detalhe.html">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div> <!--<div class="col-md-4 col-sm-12">-->
+                    <div class="col-md-4 col-sm-12">
+                        <article class="thumbnail">
+                            <header class="dest-img bg-azul">
+                                <a href="detalhe.html">
+                                    <img src="imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg" alt="Unidade de Saúde Básica Maria Madalena" class="img-responsive"/>
+                                    <p class="text-center title-nome">POSTO DE SAÚDE<br>
+                                        <span class="title-endereco"> Unidade Básica de Saúde Maria Madalena</span>
+                                    </p>
+                                </a>
+                            </header>
+                            <footer class="caption">
+                                <ul class="list-unstyled">
+                                    <li><span class="glyphicon glyphicon-time"></span> Atendimento: 8:00h às 19:00h</li>
+                                    <li><span class="glyphicon glyphicon-earphone"></span> Tel. / Cel. : 093 3518-0001</li>
+                                    <li>
+                                        <hr>
+                                    </li>
+                                    <li><a href="detalhe.html">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div> <!--<div class="col-md-4 col-sm-12">-->
+                    <div class="col-md-4 col-sm-12">
+                        <article class="thumbnail">
+                            <header class="dest-img bg-verde">
+                                <a href="detalhe.html">
+                                    <img src="imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg" alt="Unidade de Saúde Básica Maria Madalena" class="img-responsive"/>
+                                    <p class="text-center title-nome">POSTO DE SAÚDE<br>
+                                        <span class="title-endereco"> Unidade Básica de Saúde Maria Madalena</span>
+                                    </p>
+                                </a>
+                            </header>
+                            <footer class="caption">
+                                <ul class="list-unstyled">
+                                    <li><span class="glyphicon glyphicon-time"></span> Atendimento: 8:00h às 19:00h</li>
+                                    <li><span class="glyphicon glyphicon-earphone"></span> Tel. / Cel. : 093 3518-0001</li>
+                                    <li>
+                                        <hr>
+                                    </li>
+                                    <li><a href="detalhe.html">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div> <!--<div class="col-md-4 col-sm-12">-->
+                </div>
+            </div>
+        </div>
+        <div id="contato_section" class="bg-branco">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 page-title">
+                        <h1 class="title font-bold" >Contato</h1>
+                        <hr>
+                        <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="mapa_contato"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="page-title">
+                            <h3 class="text-uppercase title font-bold text-green">Endereço</h3>
+                            <hr>
+                            <p>Estrada do Jacarezinho, Km 5, s/n - Maria Madalena, Itaituba - PA, 68180-000</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="page-title">
+                            <h3 class="text-uppercase title font-bold text-green">Telefone</h3>
+                            <hr>                            
+                            <p>(093) 3518-0505 <br/> (093) 992254-5544</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="page-title">
+                            <h3 class="text-uppercase title font-bold text-green">E-mail</h3>
+                            <hr>                            
+                            <p>email1@email.com <br/> email2@email.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <form id="form-contato">
+                                <div class="col-md-4"><input type="text" class="form-control" name="nNome" placeholder="Nome: "/></div>
+                                <div class="col-md-4"><input type="text" class="form-control" name="nEmail" placeholder="E-mail: "/></div>
+                                <div class="col-md-4"><input type="text" class="form-control" name="nAssunto" placeholder="Assunto: "/></div>
+                                <div class="col-md-12"><textarea name="nMensagem" class="form-control" placeholder="Mensagem: " rows="10"></textarea></div>
+                                <div class="col-md-12"><p class="text-right"><button name="nEnviar" class="btn btn-success"> Enviar</button></p></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rodape" class="bg-verde">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="imagens/logo-ifpa-rodape.png" alt="Logotipo do Instituto Federal do Pará Campus Itaituba"/>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="text-justify text-ident">Este projeto foi desenvolvido para fins acadêmicos na disciplina de Engenharia de Software para Web existente na grade currícular dno curso Tecnologo em Análise e Desenvolvimento de Sistemas</p>
+                        <p class="text-right font-bold">&copy; Copyrigth 2017 - IFPA TADS 2015</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+        <!-- CHAMANDO JS DO GoogleMaps -->
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDf9N7ej7iKz6t_-zk4hsyuq3B01rUkOdA&sensor=false"></script>
+        <!-- Arquivo de inicialização do mapa -->
+        <script src="js/infobox.js"></script>
+        <script src="js/markerclusterer.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/move-top.js"></script>
+        <script src="js/easing.js"></script>
+        <script type="text/javascript" src="js/meu_bairro.js"></script>
+    </body>
 </html>

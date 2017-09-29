@@ -1,0 +1,22 @@
+[
+  {
+    "cod_comercio": "01",
+    "comercio_nome": "Unidade Básica de Saúde Maria Madalena",
+    "comercio_categoria": "POSTO DE SAÚDE",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "http://google.com/maps",
+    "latitude_endereco": "-4.226399",
+    "longitude_endereco": "-56.002350"
+  },
+  {
+    "cod_comercio": "02",
+    "comercio_nome": "Unidade Básica de Saúde Maria Madalena",
+    "comercio_categoria": "POSTO DE SAÚDE",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2259599",
+    "longitude_endereco": "-56.0015772"
+  }
+]

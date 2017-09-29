@@ -1,1 +1,247 @@
 @charset "utf-8";
+@font-face{
+    font-family: "ubuntu-regular";
+    src : url(../fonts/ubuntu-regular.ttf);
+}
+*{
+    font-family: "ubuntu-regular";
+}
+html, body {height:100%;}
+#toTop{
+    display: none!important;
+}
+/****************************
+    CLASSES GLOBAIS
+*****************************/
+.margn-top-botttom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.padding-top-bottom{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.color-laranja{color: #F37021}
+.img-responsive{width: 100%;}
+.float-right{float: right}
+.float-left{float: left};
+.thumbnail a:hover, .thumbnail a, .thumbnail a:focus{text-decoration: none;}
+.fotorama__fullscreen-icon{
+    background: none;
+    visibility: visible;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.text-ident{
+    text-indent: 30px;
+}
+.bgParallax {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    min-height: 100%;
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.text-white{
+    color: white;
+}
+.text-green{
+    color: #008241;
+}
+.text-green:hover, .text-green:focus{
+    color: #008241;
+}
+.bg-verde{
+    background-color: #008241;
+    color: #EEEEEE;
+}
+.bg-verde .page-title hr{
+    border-color: white;
+}
+
+.bg-verde .page-title h1{
+    color: white;
+}
+.bg-branco{
+    background-color: white;
+    color: #555;
+}
+.bg-branco .page-title hr{
+    border-color: #008241;
+}
+
+.bg-branco .page-title h1{
+    color: #008241;
+}
+.img-center{
+    display: block;
+    margin: 10px auto;
+}
+.font-bold{
+    font-weight: bold;
+}
+.page-title h1,.page-title h3{
+    margin-bottom: 0;
+}
+.page-title hr{
+    min-width: 200px;
+    max-width: 500px;
+    border-width: 4px;
+    border-radius: 2px;
+    margin: 0;
+}
+/*
+    HEADER
+    @author Joab Torres Alencar
+*/
+.navbar-default{
+    border-radius: 0;
+    border-bottom: 4px solid #008241;
+    margin-bottom: 0!important;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #006633;
+    padding: 25px 15px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+    background-color: #006633;
+    color: white;
+}
+.navbar-brand{
+    height: auto;
+}
+.navbar-brand img{
+    width: 100%;
+    min-width: 130px;
+    max-width: 198px;
+}
+@media(max-width: 768px){
+    .navbar-default .navbar-toggle{
+        margin-top:15px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        padding: 15px;
+    }
+}
+/*
+    SECTION
+    @author Joab Torres Alencar
+*/
+#mapa_section, #destaque_section, #contato_section, #rodape{
+    padding: 30px;
+}
+#inicio img{
+    min-width: 200px;
+    max-width: 350px;
+}
+#inicio-banner{
+    background-image: url('../imagens/bg-inicio.jpg');
+    color: white;
+}
+#inicio-banner img{
+    margin-top: 110px;
+    margin-bottom: 10px;
+}
+#inicio-banner .texto-descricao-bairro{
+    margin-bottom: 100px;
+}
+#mapa_section, #inico, #contato_section, #destaque_section, #rodape{
+    display: block;
+    clear: both;
+}
+#mapa_section:after, #destaque_section:after{
+    content: '';
+    border: 3.125em solid #fff;
+    border-color: #fff transparent transparent transparent;
+    position: relative;
+    left: 47%;
+    bottom: -75px;
+}
+#destaque_section:after{
+    border-color: #008241 transparent transparent transparent;
+}
+
+/** 
+        Página Mapa
+*/
+#mapaview{
+    width: 100%;
+    height:420px;
+    background: #cecece;
+}
+.infoBox { background-color: #FFF; width: 300px; font-size: 14px; border: 2px solid #3fa7d8; border-radius: 3px; margin-top: 10px; padding: 10px} 
+.infoBox p { padding: 0 15px }
+.infoBox img { border-radius: 5px; border: 1px solid #DDDDDD;}
+.infoBox:before { border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #3fa7d8; top: -10px; content: ""; height: 0; position: absolute; width: 0; left: 138px }
+
+/*****************************
+    destaque
+**********************************/
+#destaque_section .thumbnail{background: white ;padding:0; overflow: hidden; transition: all 0.3s ease 0s;}
+#destaque_section .thumbnail:hover{box-shadow: 0 0px 10px rgba(0,0,0, .5); }
+#destaque_section .thumbnail img:hover {transform: scale(1.05);}
+#destaque_section .thumbnail img {transition: all 0.3s ease 0s;}
+#destaque_section .thumbnail  .dest-img{padding: 0.625em 0;}
+#destaque_section .thumbnail  .dest-img a{color: white;}
+#destaque_section .thumbnail  .dest-img a:hover{text-decoration:none;}
+#destaque_section .thumbnail .caption a{color: #005F7D; font-weight: bold; display: block;}
+#destaque_section .thumbnail .caption a:hover{color: #008241; text-decoration:none;}
+#destaque_section .thumbnail .dest-img .title-nome{font-weight:bold; margin-top: 10px; }
+#destaque_section .thumbnail .dest-img .title-endereco{font-weight: normal;}
+#destaque_section .thumbnail hr{margin: 5px 0;}
+#destaque_section .thumbnail img{min-width: 100px;  height: auto;}
+#destaque_section.thumbnail .caption{color: #242415;}
+.ic-mais {display: inline-block; background: #008241; text-align: center; color: #fff; padding: 2px 7px}
+#destaque_section  .thumbnail .bg-amarelo{background: #FCB711;border-bottom:10px solid #C88C02;}
+#destaque_section  .thumbnail .bg-laranja{background: #F37021;border-bottom:10px solid #DC5A0C;}
+#destaque_section  .thumbnail .bg-vermelho{background: #CC004C;border-bottom:10px solid #B00042;}
+#destaque_section  .thumbnail .bg-lilas{background: #6460AA;border-bottom:10px solid #494684;}
+#destaque_section  .thumbnail .bg-azul{background: #0089D0;border-bottom:10px solid #00689F;}
+#destaque_section  .thumbnail .bg-verde{background: #0DB14B;border-bottom:10px solid #0B8A3A;}
+/*********************
+    contato
+*******************/
+#contato_section #mapa_contato{
+    width: 100%;
+    height: 250px;
+}
+#contato_section #form-contato .form-control{
+    border-radius: 0;
+    margin-bottom: 10px;
+    border-color: #006A35;
+    background-color: #F5F5F5;
+    min-width: 100%;
+}
+#contato_section #form-contato .btn{
+    border-radius: 0;
+}
+
+
+/*************************
+    ponto_comercial_section
+********************************/
+#ponto_comercial_section {margin-top: 80px;}
+#ponto_comercial_section .container_title{
+    margin: 30px 0;
+}
+#ponto_comercial_section h4{
+    color: #008241;
+}
+/*****************************
+        rodapé
+   ******************************/
+#rodape p{
+    margin: 0;
+}
+#rodape img{
+    display: block;
+    margin: 10px 0;
+}
