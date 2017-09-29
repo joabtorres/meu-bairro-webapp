@@ -1,3 +1,10 @@
+function mostraConteudo(){
+	var element = document.getElementById("interface");
+	element.style.display="block";
+	init_map1();
+	initialize();
+    carregarPontos();
+}
 $(document).ready(function () {
 
     $('div.bgParallax').each(function () {
@@ -52,6 +59,7 @@ if (document.getElementById("mapa_contato")) {
     }
     init_map1();
 }
+
 /**
  * 
  * PÁGINA MAPA: Configuração do mapa

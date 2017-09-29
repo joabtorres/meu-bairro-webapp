@@ -10,6 +10,9 @@ html, body {height:100%;}
 #toTop{
     display: none!important;
 }
+#interface{
+	display: none;
+}
 /****************************
     CLASSES GLOBAIS
 *****************************/
