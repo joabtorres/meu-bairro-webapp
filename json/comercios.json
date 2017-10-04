@@ -1,22 +1,112 @@
 [
   {
     "cod_comercio": "01",
-    "comercio_nome": "Unidade Básica de Saúde Maria Madalena",
-    "comercio_categoria": "POSTO DE SAÚDE",
+    "comercio_nome": "Lanchonete Eloá",
+    "comercio_categoria": "LANCHONETE",
     "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
     "comercio_detalhe": "detalhe.html",
-    "comercio_google_map" : "http://google.com/maps",
-    "latitude_endereco": "-4.226399",
-    "longitude_endereco": "-56.002350"
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2239135",
+    "longitude_endereco": "-56.002064"
   },
   {
     "cod_comercio": "02",
-    "comercio_nome": "Unidade Básica de Saúde Maria Madalena",
-    "comercio_categoria": "POSTO DE SAÚDE",
+    "comercio_nome": "Mercearia Costa",
+    "comercio_categoria": "MERCEARIA ATACADISTA",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2241516",
+    "longitude_endereco": "-56.0016771"
+  },
+  {
+    "cod_comercio": "03",
+    "comercio_nome": "Congregacão Cristã No Brasil",
+    "comercio_categoria": "IGREJA",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2243355",
+    "longitude_endereco": "-56.000053"
+  },
+  {
+    "cod_comercio": "04",
+    "comercio_nome": "VISUAL MIX E VRIEDADES",
+    "comercio_categoria": "LOJA DE ROUPA",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2246645",
+    "longitude_endereco": "-56.0004218"
+  },
+  {
+    "cod_comercio": "05",
+    "comercio_nome": "Mercantil Silva",
+    "comercio_categoria": "LOJA DE ROUPA",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2247568",
+    "longitude_endereco": "-56.0006498"
+  },
+  {
+    "cod_comercio": "06",
+    "comercio_nome": "Lanchonete e Pizzaria Silva",
+    "comercio_categoria": "LANCHONETE",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2247909",
+    "longitude_endereco": "-56.0024247"
+  },
+  {
+    "cod_comercio": "07",
+    "comercio_nome": "Comércio do Delegado",
+    "comercio_categoria": "MERCEARIA ATACADISTA",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2245716",
+    "longitude_endereco": "-56.0026762"
+  },
+  {
+    "cod_comercio": "08",
+    "comercio_nome": "Bar do Jacaré",
+    "comercio_categoria": "Bar",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2253232",
+    "longitude_endereco": "-56.0027768"
+  },
+  {
+    "cod_comercio": "09",
+    "comercio_nome": "Mercearia Marciano",
+    "comercio_categoria": "MERCEARIA ATACADISTA",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2253741",
+    "longitude_endereco": "-56.0031422"
+  },
+  {
+    "cod_comercio": "10",
+    "comercio_nome": "Comercial Bel",
+    "comercio_categoria": "Bar",
     "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
     "comercio_detalhe": "detalhe.html",
     "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
     "latitude_endereco": "-4.2259599",
     "longitude_endereco": "-56.0015772"
+  },
+  {
+    "cod_comercio": "11",
+    "comercio_nome": "IFPA Campus Itaituba",
+    "comercio_categoria": "Escola Técnica",
+    "comercio_imagem": "imagens/pontos/posto-de-saude/posto-de-saude-destaque.jpg",
+    "comercio_detalhe": "detalhe.html",
+    "comercio_google_map" : "https://www.google.com.br/maps/dir/-4.2574072,-55.9836191/Comercial+Bel+Quinta+Travessa+do+5+-+Maria+Magdalena/@-4.2252738,-56.0015741,20.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x925fd84837400bd7:0x323476b2ff8691b9!2m2!1d-56.0015772!2d-4.2259597?hl=pt-BR",
+    "latitude_endereco": "-4.2225239",
+    "longitude_endereco": "-56.001834"
   }
 ]

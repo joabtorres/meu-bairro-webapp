@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Meu Bairro</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fotorama.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+    <body onload="mostraConteudo()">
+		<div id="interface">
+			<div id="menu">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-meubairro">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#"><img src="imagens/logo-menu.png" alt="Logo no menu Meu Bairro" class=""/></a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="menu-meubairro">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html">Inicial</a></li>
+								<li><a href="index.html#mapa_section">Mapa</a></li>
+								<li><a href="index.html#destaque_section">Destaque</a></li>
+								<li><a href="index.html#contato_section">Contato</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</div>
+			<div id="ponto_comercial_section">
+				<div class="bg-verde container_title">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12 page-title">
+								<h3 class="title font-bold">Comercio Delegado</h3>
+								<hr>
+								<p>Ponto Comercial</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid clearfix bg-verde padding-top-bottom">
+					<div class="row">
+						<div class="col-sm-12 col-md-offset-2 col-md-8 ">
+							<div class="fotorama" data-width="850" data-ratio="850/429" data-max-width="100%" data-nav="thumbs"  data-allowfullscreen="true">
+								<a href="imagens/pontos/posto-de-saude/01.jpg"><img src="imagens/pontos/comercio-delegado/01.jpg" alt="Meu Bairro - Maria Madalena" class="img-responsive"></a>
+								</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="container-fluid bg-branco padding-top-bottom">
+					<div class="row">
+						<div class= "col-md-offset-1 col-md-10 col-sm-12">
+							<h4>Descrição:</h4>
+							<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. </p>
+						</div>
+						<div class="clearfix col-md-offset-1  col-md-5">
+							<h4>Endereço:</h4>
+							<p>2º rua com 9º Travessa  s/n, bairro Maria Madalena, Itaituba - Pará </p>
+						</div>
+						<div class="col-md-5">
+							<h4>Contato:</h4>
+							<p>E-mail: csmmadalena@gmail.com</p>
+						</div>
+						<div class=" clearfix col-md-offset-1  col-md-10">
+							<h4>Rota:</h4>
+							<a href='#' class='btn btn-danger' target='_blank'><span class='glyphicon glyphicon-globe'></span> Google Maps</a>
+						</div>
+					</div>
+				</div>
+        
+			</div>
+			<div id="rodape" class="bg-verde">
+				<div class="container-fluid">
+					<div class="row">
+						<div class=" col-sm-12 col-md-5">
+							<img src="imagens/logo-ifpa-rodape.png" alt="Logotipo do Instituto Federal do Pará Campus Itaituba"/>
+						</div>
+						<div class="col-md-7">
+							<p class="text-justify text-ident">Este projeto foi desenvolvido para fins acadêmicos na disciplina de Engenharia de Software para Web existente na grade currícular dno curso Tecnologo em Análise e Desenvolvimento de Sistemas</p>
+							<p class="text-right font-bold">&copy; Copyrigth 2017 - IFPA TADS 2015</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+        <!-- CHAMANDO JS DO GoogleMaps -->
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDf9N7ej7iKz6t_-zk4hsyuq3B01rUkOdA&sensor=false"></script>
+        <!-- Arquivo de inicialização do mapa -->
+        <script src="js/fotorama.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/meu_bairro.js"></script>
+    </body>
+</html>
